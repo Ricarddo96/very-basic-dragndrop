@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 35px;
+  font-size: 2rem;
+}
+
+.layout__main {
+  width: 90%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inventary__box {
+  width: 5rem;
+  height: 5rem;
+  background-color: brown;
+  margin: 10px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.hollow__box {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(191, 196, 158);
+  border: 2px solid rgb(125, 80, 80);
+  margin: 10px;
+  border-radius: 1rem;
+  box-shadow: inset 12px 10px 75px -33px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section__inventary {
+  margin: 2rem;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+.section__hollow {
+  margin: 2rem;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
